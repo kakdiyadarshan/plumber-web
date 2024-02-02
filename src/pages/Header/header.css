@@ -1,0 +1,42 @@
+.top_info {
+    background-color: var(--blue);
+    padding: 10px 20px 13px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_info a {
+    color: var(--white);
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.nav {
+    /* position: fixed !important; */
+    z-index: 99;
+    top: 10%;
+    left: 0;
+    width: 100%;
+}
+
+/* #basic-navbar-nav
+{
+    flex-grow: 0;
+} */
+.nav .menu {
+    color: var(--blue);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.navbar-toggler {
+    color: var(--blue);
+}

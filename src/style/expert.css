@@ -1,0 +1,7 @@
+.team .title h4 a{
+    color: var(--black);
+    transition: all 0.4s ease-in-out;
+}
+.team .box:hover .title h4 a{
+    color: var(--blue);
+}

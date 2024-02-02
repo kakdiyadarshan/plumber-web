@@ -1,0 +1,39 @@
+
+
+.service .box {
+    border: 1px solid var(--blue);
+    transition: all 0.4s ease-in-out
+}
+
+.service .box .img {
+    overflow: hidden;
+}
+
+.service .box .img img {
+    width: 100%;
+    transition: all 0.4s ease-in-out
+}
+
+.service .box:hover img {
+    transform: scale(1.2);
+}
+
+.service .box .content {
+    padding: 30px 20px;
+}
+
+.service .box .content h5 a {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 31px;
+}
+
+.service .box:hover h5 a {
+    color: var(--blue);
+}
+
+.service .box .content p {
+    line-height: 30px;
+    font-size: 19px;
+}

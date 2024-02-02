@@ -1,0 +1,89 @@
+
+
+.package .item {
+    box-shadow: 0px 4px 24px 0px rgba(106, 105, 194, 0.25);
+    padding: 50px 30px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.package .item h6 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+.package .item h3 {
+    font-size: 48px;
+    color: var(--black);
+    line-height: 57px;
+    font-weight: 700;
+    transition: all 0.4s ease-in-out;
+}
+
+.package .item p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    transition: all 0.4s ease-in-out;
+}
+
+.package .item ul {
+    margin-top: 20px;
+}
+
+.package .item li {
+    line-height: 45px;
+    font-size: 500;
+    color: var(--gray);
+    transition: all 0.4s ease-in-out;
+}
+
+.package .item .button {
+    margin-top: 20px;
+}
+
+.package .item .button .btn {
+    padding: 15px 30px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+
+.package .items {
+    background-color: var(--blue);
+}
+
+.package .items h3,
+.package .items h6,
+.package .items p,
+.package .items li {
+    color: var(--white);
+}
+
+.package .items .button .btn {
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.package .item:hover {
+    transform: translateY(-15px);
+    background-color: var(--blue);
+}
+
+.package .item:hover h6,
+.package .item:hover p,
+.package .item:hover h3,
+.package .item:hover li {
+    color: var(--white);
+}
+
+.package .item:hover .btn {
+    background-color: var(--white);
+    color: var(--blue);
+}

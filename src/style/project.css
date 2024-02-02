@@ -1,0 +1,61 @@
+.pro .box {
+    position: relative;
+}
+
+.pro .box .img {
+    position: relative;
+}
+
+.pro .box .img img {
+    width: 100%;
+}
+
+.pro .box .img::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(42, 133, 203, 0.8);
+    ;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.pro .box:hover .img::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pro .box .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.pro .box:hover .content {
+    visibility: visible;
+    opacity: 1;
+}
+
+.pro .box .content h4 a {
+    font-size: 24px;
+    color: var(--white);
+}
+
+.pro .box .content .link li a {
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    border-radius: 5px;
+    line-height: 36px;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
